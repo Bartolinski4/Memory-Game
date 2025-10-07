@@ -1,0 +1,81 @@
+body {
+    background-color: #26282E;
+    color: #208781;
+    font-size: 32px;
+    font-family: "Karla", sans-serif;
+}
+
+header {
+    margin-top: 50px;
+}
+
+h1 {
+    font-size: 64px;
+    font-weight: 400;
+    text-align: center;
+    letter-spacing: 3px;
+    margin: 0;
+    color: honeydew;
+}
+
+p {
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 25px;
+    letter-spacing: 2px;
+}
+
+.plansza {
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.karta {
+    width: 125px;
+    height: 125px;
+    display: inline-block;
+    margin: 3px;
+    background-image: url(./img//karta.png);
+    border: 4px solid #7f7f7f;
+    border-radius: 4px;
+    cursor: pointer;
+    filter: brightness(70%);
+    transition: all .2s ease-in-out;
+}
+
+.active {
+    cursor: default;
+    filter: brightness(100%);
+    transition: all .2s ease-in-out;
+}
+
+.karta:hover {
+    border: 4px solid #208781;
+    filter: brightness(100%);
+}
+
+.wynik {
+    text-align: center;
+    margin-top: 5px;
+    letter-spacing: 2px;
+}
+
+.restart {
+    color: #E9B64A;
+    cursor: pointer;
+}
+
+.restart:hover {
+    color: darkgreen;
+}
+
+.wygrana {
+    font-size: 48px;
+    color: lightgreen
+}
+
+.chujciwdupe {
+    background-color: aqua;
+}
