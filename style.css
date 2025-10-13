@@ -76,6 +76,26 @@ p {
     color: lightgreen
 }
 
-.chujciwdupe {
-    background-color: aqua;
+@media(max-width: 1300px) {
+    .plansza {
+        width: 900px;
+    }
+}
+
+@media(max-width: 1000px) {
+    .plansza {
+        width: 700px;
+    }
+}
+
+@media(max-width: 800px) {
+    .plansza {
+        width: 500px;
+    }
+}
+
+@media(max-width: 500px) {
+    .plansza {
+        width: 300px;
+    }
 }
